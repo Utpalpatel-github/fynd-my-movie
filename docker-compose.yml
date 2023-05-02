@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  web:
+    image: fynd-my-movie:latest
+    build: .
+    ports:
+      - "8009:8000"
